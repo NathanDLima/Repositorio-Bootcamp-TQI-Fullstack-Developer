@@ -1,0 +1,26 @@
+Iniciar repositorio
+git init
+
+Mover arquivos e dar inicio ao versionamento
+git add
+git add * - adiciona tudo da pasta
+
+Commit 
+git commit -m "texto para identificar a mudança"
+
+Configurar o autor
+git config --global user.email "email"
+
+git config --global user.name "nome"
+
+Linkar o repositório local já existente com o seu no GITHub
+git remote add origin "link do repositório"
+
+Colocar o repositório no GITHub
+git push origin master
+
+Pegar o arquivo do repositório para sua máquina
+git pull origin master
+
+Clonar o repositório do GITHub para a sua máquina
+git clone "link do repositório"

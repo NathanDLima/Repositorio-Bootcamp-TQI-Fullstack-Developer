@@ -1,0 +1,13 @@
+BLOBS
+Blobs armazenam os metadados de um arquivo, guardando em um sha1 também.
+Ex: git hash-object --stdin "nome"
+
+TREE
+Trees armazenam os blobs em grupos de dados diferentes, apontando para os blobs ou até para outras Trees. Guarda também o sha1 das próprias árvores e os nomes dos arquivos dos blobs.
+
+COMMIT
+Aponta para uma árvore, para o parente, para o autor, uma mensagem e o tempo, junto com o tamanho. Também possui um sha1 que identifica o próprio.
+
+
+Alterando os dados de um único arquivo, reflete no blob, na tree e no commit, alterando o sha1 deles também.
+

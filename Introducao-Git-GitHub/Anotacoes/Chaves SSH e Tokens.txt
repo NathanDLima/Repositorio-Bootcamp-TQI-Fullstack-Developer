@@ -1,0 +1,4 @@
+Chaves SSH são uma forma segura de se conectar em dois computadores.
+
+Criação da chave SSH pelo GIT Bash
+ssh-keygen -t ed25519 -C "email"

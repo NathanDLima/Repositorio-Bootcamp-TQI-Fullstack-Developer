@@ -1,0 +1,11 @@
+			Windows			Linux
+Listar os diretórios	dir			ls
+Caminhos especificos	cd "caminho"		cd "caminho"
+Retornar diretório	cd ..			cd ..
+Limpar tela		cls			clear			CTRL + L funciona tbm
+Criar pasta		mkdir "nome"		mkdir "nome"
+Deletar	arquivos	del
+Remover repositório	rmdir "nome" /S /Q	rm -rf "nome"/
+Encriptografar arquivo  openssl sha1 "arquivo"
+Mostrar arquivos ocultos ls -a
+Mover arquivo		mv "nome" ./repositorio/
