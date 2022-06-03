@@ -1,0 +1,77 @@
+CSS serve para cirar regras de estilos para elementos ou para um grupo de elementos
+Uma regra CSS é formada por:
+
+-Seletores: são elementos HTML
+-Declarações: são formadas por uma propriedade e um valor
+
+Classe X ID
+Classe é precedida por .
+ID é precedida por #, podendo ser usado apenas uma vez no site.
+Ex's:
+Classe:
+.header {
+   padding: 10px;
+}
+
+ID:
+#header{
+   padding: 15px;
+}
+
+Box Model
+Também podem ser estilizadas utilizando CSS, elas possuem:
+-A margin, que são os espaçamentos entre os elementos;
+-A border, circundam o padding e o content, podemos alterar seu tamanho e cor;
+-O padding é o espaçamento entre a border e o content;
+-O content é onde fica uma imagem, texto, vídeo etc.
+
+Background
+Podemos mudar a cor do fundo, colocar uma imagem de fundo, posição etc.
+
+Border
+Pode ter três valores, largura, cor e estilo.
+Largura pode ser representada por várias unidade, como pixel, centimetros, milimetros.
+A cor é igual a todos os tipos, podendo ser representada por código hexadecimal ou em inglês.
+Já o estilo pode ser sólido, pontilhado, tracejado etc.
+
+Border-radius
+Permite mudar o canto das bordas, podendo usar os valores como pixels ou porcentagem.
+
+Font-family
+Altera a fonte do texto.
+
+Font-size 
+Altera o tamanho do texto.
+
+Font-style
+Altera a aparência do texto.
+
+Font-weight
+Altera o peso do texto, como negrito.
+
+Text-transform 
+Altera o texto para maiúsculo ou minúsculo, já o capitalize coloca todas a primeiras letras de cada palavra em maiúsculo.
+
+Text-decoration
+Sublinhar, colocar uma linha acima do texto ou no meio do texto.
+
+List-style-type
+Serve para alterar os símbolos da lista, os marcadores, emojis etc.
+
+List-style-image
+Com ele podemos colocar imagens como marcadores.
+
+Width e Height
+Servem para ajustar a largura e altura, nessa ordem.
+
+Max-width e max-height
+Define a largura e altura máxima que aquilo pode se ajustar.
+
+Margin
+Usado para colocar margem nos elementos, também tem a função auto que alinha o elemento automaticamente.
+
+Text-allign
+Podemos alinhar o texto com ele.
+
+Letter-spacing
+Espaço entre as letras.

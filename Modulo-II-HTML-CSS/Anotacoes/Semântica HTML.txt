@@ -1,0 +1,41 @@
+<section>
+É uma seção de conteúdo(s)
+
+<header>
+É o cabeçalho da página ou de uma parte dela, como por exemplo, de uma section
+
+<article>
+Conteúdo relevante na página
+
+<aside>
+Conteúdo relacionado ao conteúdo principal da página
+
+<footer>
+Rodapé da pagina ou de uma parte da mesma
+
+<h1>...<h6>
+Importância do título da página. Deve haver no máximo apenas 1 <h1> por página
+
+<p>
+Conteúdo do artigo, aceita texto, imagens, videos e diversos outros tipos de conteúdo
+
+<a>
+É uma âncora, serve para apontar para sites, emails, telefones.
+Ex:
+<a href="youtube.com">Youtube</a>
+<a href="mailto:contato.nathanlima@hotmail.com">E-mail</a>
+
+<img>
+Serve para inserir uma imagem na página
+<img src="caminho.jpg">
+<img alt="Foto do caminho">
+O img alt serve para inserir uma legenda caso a imagem não apareça, ou para leitores de telas utilizados por deficientes visuais.
+
+<ul>
+É uma lista onde a ordem dos itens não é importante
+
+<ol>
+Também é uma lista, mas a ordem dos itens é importante
+
+<li>
+É o item das listas

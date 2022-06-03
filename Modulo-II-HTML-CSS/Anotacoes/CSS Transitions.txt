@@ -1,0 +1,33 @@
+Filter
+Cria um efeito de filtro quando usado.
+
+Transition
+Permite definir a transição entre dois estados do elemento.
+
+Flex-direction
+Serve para alinhar a direção
+
+Easy-in
+Animação começa lento e acaba rápido 
+
+Easy-out
+Animação que começa rápido e acaba lento
+
+Easy-in-out
+Animação começa e acaba lento.
+
+Keyframes
+Mudar as características e mudanças do objeto como tamanho, cores, estado etc.
+
+Animation
+name: nome da animação;
+duration: tempo que levará para concluir a animação;
+time-function: tempo que ocorrerá as curvas de animação;
+delay: tempo antes de começar a animação;
+iteration-count: quantas vezes será repetido a animação;
+direction: direção pra onde a animação irá ocorrer;
+fill-mode: define estilo de antes e depois da animação.
+
+div.classe__loading*quantidade
+Serve para criar divs de uma mesma classe de uma única vez, sem precisar usar o CTRL + C.
+
