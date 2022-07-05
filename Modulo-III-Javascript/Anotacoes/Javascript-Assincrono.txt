@@ -1,0 +1,44 @@
+Javascript Assíncrono
+O Javascript por padrão roda de forma síncrona, onde um processo acontece após o outro.
+Já na forma assíncrona, podemos rodar outro processo enquanto estamos rodando um processo
+
+Promises
+É um objeto de processamento assíncrono, tendo inicialmente seu valor como desconhecido. Podendo ser resolvida ou rejeitada.
+A promise pode ter 3 estados: o pending (pendente), fulfilled (completado), rejected (rejeitado).
+Estrutura de uma promise, ex:
+
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida'));
+	}, 2000);
+}); 
+
+Após uma promise ser resolvida, podemos manipular o resultado dela.
+
+Async
+É uma palavra reservada que determina que aquela função declarada após ela, será assíncrona.
+Para resolver uma promise, a função deve ser uma função assíncrona, justamente porque precisaremos utilizar a palavra await.
+
+Await
+Essa palavra é utilizada para lidar especificamente com promises.
+O await para o código esperando o resultado da promise.
+Para chamar uma função assíncrona, precisamos utilizar o await em sua frente para que funcione a chamada daquela função.
+Também pode-se utilizar o try...catch para tratamento de erros.
+
+API's  (Application Programming Interface)
+A API é uma forma de intermediar os resultados do back-end com aquilo que é apresentado no front-end.
+Consegue ser acessado por meio de URLs.
+
+JSON (JavaScript Object Notation)
+.json é o formato mais comum que os dados das API's são retornados, e por isso precisamos tratar os dados quando os recebemos.
+
+Fetch 
+É um método utilizado para consumir API's. Retornando uma Promise.
+Ex de sintaxe:
+
+fetch(url, options)
+	.then(response => response.json())
+	.then(json => console.log(json))
+
+Por meio dele podemos fazer operações no banco, como POST, GET, PUT, DELETE etc.
+

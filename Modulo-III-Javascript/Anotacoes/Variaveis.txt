@@ -1,0 +1,80 @@
+var
+É de escopo global e local, podendo ter seu valor alterado, caso não tenha valor inicial, o mesmo será do tipo null;
+
+let
+É de escopo local de bloco, e assim como o var, pode ter seu valor altera, e caso não tenha valor inicial, o mesmo será do tipo null;
+
+const
+Também de escopo local de bloco, não muda de valor e é somente de leitura, necessita de um valor incial.
+
+Escopos
+Escopo global: é quando a variável é declarada fora de qualquer bloco, ficando assim, disponível para todo o código;
+Escopo local: é quando a variável é declarada dentro de um bloco, sendo assim, pode ser disponível ou não.
+
+Regras
+- Não iniciar nome de variável com números;
+- Não utilizar espaços;
+- Não utilizar palavras que são reservadas.
+- Declarar as váriaveis no topo do bloco de código.
+
+Atribuição
+nome = Nathan
+Apenas um igual
+
+Comparação
+0 == 0
+Dois iguais, significa que ambos tem o mesmo valor
+
+0 === 0
+Três iguais, significa que ambos tem o mesmo valor e mesmo tipo
+
+Operadores aritméticos
++, adição;
+-, subtração;
+*, multiplicação;
+/, divisão real;
+%, divisão inteira;
+**, potenciação.
+
+Operadores relacionais
+>, maior que;
+<, menor que;
+>=, maior ou igual a;
+<=, menor ou igual a;
+
+Operadores lógicos
+&&, "e", considera que todos valores sejam verdadeiros;
+||, "ou", considera que um valor ou outro sejam verdadeiros;
+!, "não", inverte o valor de verdadeiro para falso e vice-versa.
+
+Vetores ou arrays
+São tipos de lista onde cada variável possui um índice.
+Tem que ser declarado entre colchetes, seus índices são acessados por números inteiros onde o 0 é o primeiro índice.
+
+Manipulando o array
+- forEach(): itera um array;
+- push(): adiciona um item no final do array;
+- pop(): remove item do final do array;
+- shift(): remove item do início do array;
+- unshift(): adiciona item no início do array;
+- indexOf(): retorna o índice de um valor específico;
+- splice(): remove ou substituí um valor pelo seu índice;
+- slice(): retorna uma parte do array existente.
+
+Objetos
+São dados que possuem propriedades e valores que definem suas caracteristicas.
+Ex:
+var xicara = {
+	cor: 'vermelho',
+	tamanho: 'm',
+	funcao: tomarCafe()
+}
+
+Caso queira interagir com um valor de dentro do objeto, você utiliza o nome do objeto e o seu valor. Ex:
+xicara.cor;
+
+Funções
+São blocos de comandos e instruções para a execução de tarefas.
+
+Funções com parâmetros
+Podem receber na declaração, parâmetros, que vão servir como variáveis, que são atribuidas na chamada da função.

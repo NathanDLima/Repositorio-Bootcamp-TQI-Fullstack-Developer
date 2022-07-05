@@ -1,0 +1,55 @@
+Função Anônima
+Normalmente é ligada por meio de uma atribuição a uma var, let ou const e vem sem um nome de função em específico, sendo o seu nome o nome dado a var, let ou const.
+
+Função Autoinvocável ou IIFE (Immediately Invoked Funcion Expression)
+Essa função é declarada dentro de parênteses, sendo seguida por outro par de parênteses que representa a sua chamada. Também pode ser utilizado parâmetros na hora de chamar a função.
+
+Callbacks
+É uma função passada como argumento para outra função.
+
+Arguments
+É um array com todos parâmetros ássados quando a função foi invocada.
+
+Arrays
+Spread
+É um modo de lidar separadamente com os elementos. É feito utilizando três pontos(...) na frente do nome da variável, constante etc, e faz com que os elementos de um array se tornem elementos independentes em uma função e é usado no momento em que se chama a função;
+
+Rest
+É um modo de combinar os elementos em um array, fazendo com que um elemento que era independente se torne parte de um array. É usado quando se declara a função, da mesma forma que o Spred, utilizando três pontos(...) na frente do nome.
+
+Objects
+Object Destructuring
+É um modo de filtrar apenas os dados que queremos utilizar de um objeto.
+
+Switch/case
+É uma comparação de tipo e valor (===), sempre vai precisar de um valor "default", e é melhor usado quando se faz preciso a comparação de muitos valores.
+
+For...in
+É um loop entre propriedades enumeráveis de um objeto.
+
+For...of
+É um loop entre estruturas iteráveis (arrays, strings).
+
+Do...while
+Executa instruções até que a condição se torne falsa, sendo que a primeira execução sempre ocorre.
+
+This
+É uma referência de contexto.
+Caso seja utilizado dentro de um objeto/método, ele faz referência a algo que está no objeto que é dono do método;
+Caso esteja sendo utilizado sozinha, faz referência a um objeto global;
+Caso utilizado em uma função, faz referência a um objeto global;
+E caso em um evento, faz referência ao elemento que recebeu o evento.
+
+Método Call (This)
+O método Call serve para ligar o This ao objeto que se precisa ser referenciado. Também é possível usar o Call quando uma função têm argumentos.
+
+Função Aplly
+Praticamente a mesma coisa do método Call, sua diferença aparece na hora de passar parâmetros em uma função que tem argumentos, já que para fazer isso, aquilo que for ser passado como parâmetro deve estar dentro de um array.
+
+Bind
+É um método que clona a estrutura da função em que foi chamado e aplica o valor do objeto passado como parâmetro.
+
+Arrow Function
+É representada por "=>", quando for uma função muito pequena é só precisar de apenas uma linha, não precisa utilizar a palavra return antes daquilo que for ser retornado. Caso exista apenas um parâmetro na função, pode-se não utilizar os parênteses.
+Importante: Arrow Function não faz Hoisting, já que é armazenada dentro de uma constante, então deve ser declarada antes da chamada da função.
+Call, bind e apply não funcionam em uma Arrow Function, não existe o objeto arguments e o construtor new Objetco() não pode ser utilizado.

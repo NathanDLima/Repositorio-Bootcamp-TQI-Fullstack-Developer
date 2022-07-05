@@ -1,0 +1,57 @@
+D.O.M (Document Object Model)
+É um padrão de como acessar e modificar os elementos HTML de uma página. É baseado em uma estrutura de nós, onde cada nó pode ou não ter um ou mais filhos.
+
+B.O.M (Browser Object Model)
+É tudo aquilo que está dentro do objeto window. O D.O.M faz parte do B.O.M
+
+Estrutura HTML
+tag: representa aquela parte do código. Ex: body, head etc;
+id: pode ser colocado dentro de uma tag e é um identificador único daquela tag;
+class: usado caso se queira que diversas tags tenham o mesmo identificador;
+
+Métodos
+Todos são utilizados apos o document.
+
+getElementById() = busca o elemento completo que tem aquele id especificado;
+getElementsByTagName() = busca o elemento completo que tem aquela tag name especificada retornando em forma de array;
+getElementsByClassName() = busca o elemento completo que tem aquela class name especificada retornando em forma de array;
+querySelectorAll() = podemos utilizar para fazer uma busca personalizada, retornando ela em forma de array;
+createElement(element) = cria um novo elemento HTML;
+removeChild(element) = remove um elemento;
+appendChild(element) = adiciona um elemento;
+replaceChild(new, old) = substitui um elemento;
+
+Classes
+Element.classList, que funciona como uma lista de classes daquele elemento
+
+.classList.add = adiciona uma classe aquele elemento;
+.classList.remove = remove uma classe daquele elemento;
+.classList.toggle = adiciona caso aquela classe não faça parte da lista, e caso já faça parte ele a remove.
+
+CSS
+Podemos também, acessar diretamente o CSS de um elemento.
+Ex:
+document.getElementsByTagName("p").style.color = "blue";
+
+Eventos
+São qualquer tipo de ação que o usuário realiza na página.
+
+Alguns tipos de Eventos:
+Eventos do mouse
+mouseover (quando o mouse fica em cima do elemento), mouseout (quando o mouse sai daquele elemento);
+
+Eventos de clique
+click (clique normal), dbclick (quando se deseja que o evento seja acionado pelo clique duplo)
+
+Eventos de atualização
+change, load
+
+Como acionar os Eventos?
+Direto no Javascript, se cria um evento que será acionado no momento em que o usuário realizar determinada ação.
+Ex:
+const botao = document.getElementById("meuBotao");
+botao.addEventListener("click", outraFuncao);
+
+Também podemos fazer isso dentro do próprio HTML, onde especificamos diretamente no elemento qual função será chamada. Dentro do HTML precisamos pôr a palavra "on" na frente do evento.
+Ex:
+onclick="Funcao()"

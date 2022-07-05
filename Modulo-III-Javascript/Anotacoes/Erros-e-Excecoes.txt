@@ -1,0 +1,32 @@
+ECMAScript Error
+São erros que acontecem em tempo de execução, normalmente ocorrem quando algo que está sendo usado não foi declarado, falta de ponto e vírgula etc. É composto por uma mensagem, um nome, a linha onde ocorreu o erro e a call stack, que é a pilha de chamadas que aconteceram até chegar no erro.
+
+DOMException
+São erros que são relacionados aos códigos que estão sendo rodados em uma página da web
+
+
+*DOM = Document Object Model
+
+Tratamento de Erros
+Return
+Com o return se mostra como retorno uma string.
+
+Throw 
+Com o throw, a mesma string será apresentado como um erro.
+
+Try...catch
+É uma declaração, que dentro do seu bloco, vai verificar um pedaço de código e caso ele tenha algum tipo de erro ele será tratado no catch, sendo que dentro do catch, podemos manipular como esse erro da maneira que quisermos.
+
+Finally
+É uma instrução que é chamada independente se houve um erro ou não
+
+Manipulação do Objeto Error
+O objeto Error aceita os parâmetros message (a mensagem), fileName(nome do arquivo) e lineNumber(linha onde ocorreu o erro). Normalmente se usa apenas o parâmetro de mensagem.
+Para se declarar um Error personalizado, usa-se uma constante e atribui uma nova instância do Error enviando os parâmetros.
+Ex: 
+const = ErroPers = new Error('String Inválida');
+
+Podemos também atribuir um nome ao Error, fazendo isso após a declaração do Error, usando no objeto o .name, fazendo com que possamos atribuir o nome desejado aquele Error.
+Ex: 
+const = ErroPers = new Error('String Inválida');
+ErroPers.name = 'InvalidMessage';

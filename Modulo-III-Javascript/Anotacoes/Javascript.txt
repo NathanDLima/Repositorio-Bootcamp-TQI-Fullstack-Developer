@@ -1,0 +1,59 @@
+Caracteristicas Javascript
+- Interpretada: é rodada em tempo real e está sendo disponibilizado instântaneamente;
+- Baseada em Protótipo: É um conjunto de funções e possibilidades em comum em várias estruturas de dados;
+- Multiparadigma: pode-se escolher se usará ela como Programação Orientada à Objeto, Programação Estruturada ou Programação Funcional dependendo da sua necessidade;
+- Utilizada em aplicações web client-side: É a linguagem mais utilizadas para websites que tenham qualquer tipo de interação;
+- Segue o padrão ECMAScript: segue um conjunto de normas padrão de uma base.
+
+Evolução Javascript
+ECMAScript 1 -> Primeira edição em 1997;
+ECMAScript 2 -> Mudanças editorias em 1998;
+ECMAScript 3 -> Adição de Expresões Regulares como try/catch em 1999;
+ECMAScript 4 -> Nunca foi lançado;
+ECMAScript 5 -> Modo restrito, suporte a JSON, String.trim(), Array.isArray(), e Metódos de Iteração de Array em 2009;
+ECMAScript 6 -> Trouxe diversas novas mudanças como a utilização do Paradigma da Orientação à Objeto, foi lançado em 2015.
+
+Aplicações do Javascript
+- Web;
+- Mobile;
+- Smartwatcher;
+- Games;
+- IoT;
+- API's.
+
+Comentários em um código .js
+// Oque você quiser comentar em apenas uma linha
+/* Comenta até onde você colocar o fim com asterístico e barra */ 
+CTRL + / pode ser utilizado para comentar também.
+
+Variável e Constante
+Variável pode adquirir valores diferentes ao decorrer do código.
+Constante mantém o mesmo valor ao decorrer do código, uma boa prática é ao declarar o nome de sua constante, utilizar apenas letras maiúsculas para melhor identificação.
+
+Funções
+São blocos de contrução.
+Ex: 
+function soma(a, b) {
+   return a + b; 	
+   console.log(a + b);
+}
+
+Dentro dos parentêses são passados os parâmetros da função, ou seja, os valores que serão manipulados.
+Essa função por exemplo, vai retornar a soma entre a e b, afzendo com que esse resultado possa ser manipulado depois.
+Caso use o comando console.log, o resultado será mostrado no console.
+
+Para chamar a função:
+soma(3, 5);
+
+O primeiro valor corresponde ao primeiro valor da função declarada lá em cima, assim como o segundo valor ocorre a mesma coisa.
+Uma função também pode ser chamada sem parâmetros.
+
+Console
+Podemos executar tanto em uma página da web, geralmente é utilizado quando estamos interagindo com elementos client side.
+Utilizando o Node.JS podemos testar os comandos no server-side.
+
+Node.JS
+Comando node nomedoarquivo.js roda o arquivo.
+
+DOM
+Document Object Model, demonstra a estrutura dos elementos dentro da janela

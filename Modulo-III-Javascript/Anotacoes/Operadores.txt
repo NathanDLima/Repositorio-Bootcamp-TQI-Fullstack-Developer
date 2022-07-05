@@ -1,0 +1,38 @@
+Operadores de atribuição
+			Equivale a
+=	igual		x = y
++=	igual mais	x = x + y
+-=	igual menos	x = x - y
+*=	igual vezes	x = x * y
+/=	igual dividido	x = x / y
+%=	igual resto	x = x % y
+
+Operadores aritméticos
++	Adição
+-	Subtração
+*	Multiplicação
+**	Exponenciação
+/	Divisão
+%	Módulo
+++	Incremento
+--	Decremento
+
+Operadores de comparação
+==	Igual a
+===	Mesmo valor e mesmo tipo
+!=	Diferente
+!==	Valores e tipos diferentes
+>	Maior que
+<	Menor que
+>=	Maior ou igual a
+<=	Menor ou igual a
+
+Operador lógico
+&&	"e" lógico
+||	"ou" lógico
+!	"não" lógico
+
+If ternário
+(condição) ? expressão1 : expressão2
+	     Se true	  Se false
+

@@ -1,0 +1,5 @@
+Frameworks e bibliotecas do mercado de trabalho
+-VueJS;
+-Angular;
+-React;
+-jQuery;

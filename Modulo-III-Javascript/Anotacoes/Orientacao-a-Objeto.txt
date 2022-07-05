@@ -1,0 +1,33 @@
+Paradigmas da Programação Orientada a Objeto
+Possui dois paradigmas, o Imperativo que foca em como se vai resolver os problemas e o Declarativo foca no que será feito.
+Na Orientação a Objetos, os programas são tratados como "objetos" que possuem diversas propriedades. Tem como pilares: a herança, o polimorfismo, o encapsulamento e a abstração.
+
+Abstração
+A abstração é uma forma de se olhar para um problema complexo afim de torná-lo cada vez mais simples.
+
+Herança
+Neste pilar o objeto filho recebe as propriedades e métodos dos objetos pais, mas também tem suas próprias características.
+
+Encapsulamento
+Aqui, cada classe tem propriedades e métodos independentes do restante do código.
+
+Polimorfismo
+Nele os objetos podem herdar a mesma classe pai, mas se comportará de forma diferente quando invocamos os seus métodos.
+
+Protótipos
+São, basicamente, o esqueleto de todos objetos do Javascript. Ou seja, todos objetos de um Javascript herdará as propriedades e métodos de um prototype. Sendo o Object.prototype o topo da cadeia.
+
+Classes
+Não existem nativamente no javascript, são chamadas de Syntatic Sugar, que significa uma sintaxe feita para facilitar a escrita. O que faz com que as classes sejam objetos e a sua herança se dá por protótipos.
+
+Construtor
+Constrói a classe e atribui parâmetros a certos valores dessa classe.
+
+Getter e Setter
+Get retorna algo, já o Set determina algo ou outro valor.
+
+Super()
+É um método que envia os parâmetros que estão ali para a função pai
+
+Método
+Conseguimos sobreescrever métodos da classe pai na classe filha.
